@@ -2,46 +2,46 @@
   <img src="https://rawgit.com/AllThingsSmitty/css-protips/master/media/logo.svg" alt="light bulb icon">
 </p>
 
-# CSS Conseils Professionnels [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
+# Conseils d’expert en CSS [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
-Une collection de conseils pour aider à prendre vos compétences CSS pro.
+Une collection de conseils pour vous aider à mener vos compétences CSS au niveau pro.
 
-> Pour les autres grandes listes vérifier [@sindresorhus](https://github.com/sindresorhus/) de la liste curated des [listes impressionnantes](https://github.com/sindresorhus/awesome/).
+> Pour d'autres listes géniales, consultez la liste organisée par [@sindresorhus](https://github.com/sindresorhus/) des [listes impressionnantes](https://github.com/sindresorhus/awesome/).
 
 
 ## Table des matières
 
-* [Conseils Professionnels](#conseils-professionnels)
+* [Conseils d’expert](#conseils-d--expert)
 * [Soutien](#soutien)
-* [Lignes directrices des contributions](../../CONTRIBUTING.md)
+* [Directives pour les contributions](../../CONTRIBUTING.md)
 
 
-##  Conseils Professionnels
+##  Conseils d’expert
 
 1. [Utilisez un Reset CSS](#utilisez-un-reset-css)
-1. [Hériter `box-sizing`](#hériter-box-sizing)
-1. [Utilisez `unset` au lieu de Réinitialiser Toutes les Propriétés](#utilisez-unset-au-lieu-de-réinitialiser-toutes-les-propriétés)
-1. [Utiliser `:not()` postuler / unapply Borders Navigation](#utiliser-not-postuler--unapply-frontières-sur-la-navigation)
+1. [Hériter de `box-sizing`](#hériter-de-box-sizing)
+1. [Utilisez `unset` au Lieu de Réinitialiser Toutes les Propriétés](#utilisez-unset-au-lieu-de-réinitialiser-toutes-les-propriétés)
+1. [Utiliser `:not()` pour Appliquer / ne pas Appliquer des Bordures à la Barre de Navigation](#utiliser-not-pour-appliquer--ne-pas-appliquer-des-bordures-à-la-barre-de-navigation)
 1. [Ajouter `line-height` à `body`](#ajouter-line-height-à-body)
-1. [Définissez `: focus` pour les éléments de formulaire](#définissez-focus-pour-les-éléments-de-formulaire)
-1. [Verticalement-Center Tout](#verticalement-center-tout)
-1. [Listes Comma-Separated Values](#listes-séparées-par-des-virgules)
-1. [Sélectionner éléments à l'aide négative `nth-child`](#sélectionnez-éléments-à-laide-négative-nth-child)
-1. [Utiliser SVG pour Icons](#utiliser-svg-pour-icons)
-1. [Utilisez le sélecteur "lobotomisé Owl"](#utilisez-le-sélecteur-lobotomisé-owl)
-1. [Utilisez `max-height` pour Sliders CSS pur](#utilisez-max-height-pour-sliders-css-pur)
-1. [Cellules Equal Largeur de table](#cellules-equal-largeur-de-table)
-1. [Se débarrasser de la marge Hacks Avec Flexbox](#se-débarrasser-de-la-marge-hacks-avec-flexbox)
-1. [Utilisation des attributs sélecteurs avec des liens vides](#utilisation-des-attributs-sélecteurs-avec-des-liens-vides)
-1. [Style "par défaut" Liens](#style-par-défaut-liens)
-1. [Conformément Vertical Rhythm](#conformément-vertical-rhythm)
-1. [Boîtes Ratio Intrinsic](#boîtes-ratio-intrinsic)
-1. [Style de Broken Images](#style-de-broken-images)
-1. [Utilisez `rem` for Global Dimensionnement; Utilisez `em` pour Local Sizing](#utilisez-rem-for-global-dimensionnement-utilisez-em-pour-local-sizing)
-1. [Masquer les vidéos Autoplay qui ne sont pas Muted](#masquer-les-vidéos-autoplay-qui-ne-sont-pas-muted)
-1. [Utiliser `:root` de type flexible](#utiliser-root-de-type-flexible)
-1. [Réglez `font-size` sur le formulaire éléments pour une expérience mobile mieux](#réglez-font-size-sur-le-formulaire-éléments-pour-une-expérience-mobile-mieux)
-1. [Utiliser les événements de pointeur pour contrôler les événements de la souris](#utiliser-les-événements-de-pointeur-pour-contrôler-les-événements-de-lasouris)
+1. [Définissez `: focus` pour les Éléments de Formulaire](#définissez-focus-pour-les-éléments-de-formulaire)
+1. [Tout Centrer Verticalement](#tout-centrer-verticalement)
+1. [Listes Séparées par des Virgules](#listes-séparées-par-des-virgules)
+1. [Sélectionner des Éléments en Utilisant un `nth-child` Négatif](#sélectionner-des-éléments-en-utilisant-un-nth-child-négatif)
+1. [Utiliser SVG pour les Icônes](#utiliser-svg-pour-les-icônes)
+1. [Utilisez le Sélecteur "chouette lobotomisée"](#utilisez-le-sélecteur-chouette-lobotomisée)
+1. [Utilisez `max-height` pour des Sliders en CSS Pur](#utilisez-max-height-pour-des-sliders-en-css-pur)
+1. [Cellules de Table à Largeur Égale](#cellules-de-tableau-à-largeur-égale)
+1. [Se Débarrasser des Hacks de Marge Avec Flexbox](#se-débarrasser-des-hacks-de-marge-avec-flexbox)
+1. [Utiliser des Sélecteurs d'Attribut avec des Liens Vides](#utiliser-des-sélecteurs-d-attributs-avec-des-liens-vides)
+1. [Style "Par Défaut" des Liens](#style-par-défaut-des-liens)
+1. [Rythme Vertical Consistent](#rythme-vertical-consistent)
+1. [Ratio de Boîtes Intrinsèque](#ratio-de-boîtes-intrinsèque)
+1. [Styliser des Images Cassées](#styliser-des-images-cassées)
+1. [Utilisez `rem` pour le Dimensionnement Global; Utilisez `em` pour le Dimensionnement Local](#utilisez-rem-pour-le-dimensionnement-global-utilisez-em-pour-le-dimensionnement-local)
+1. [Masquer les Vidéos Lancées Automatiquement qui ne sont pas Mises en Sourdine](#masquer-les-vidéos-lancées-automatiquement-qui-ne-sont-pas-mises-en-sourdine)
+1. [Utilisez `:root` pour le Type Flexible](#utilisez-root-pour-le-type-flexible)
+1. [Réglez `font-size` sur les Éléments de Formulaire pour une Meilleure Expérience Mobile](#réglez-font-size-sur-les-éléments-de-formulaire-pour-une-meilleure-expérience-mobile)
+1. [Utiliser les Événements de Pointeur pour Contrôler les Événements de la Souris](#utiliser-les-événements-de-pointeur-pour-contrôler-les-événements-de-la-souris)
 
 
 ### Utilisez un Reset CSS
@@ -67,7 +67,7 @@ Maintenant, les éléments seront dépouillés des marges et le rembourrage, et 
 <sup>[retour à la table des matières](#table-des-matières)</sup>
 
 
-### Hériter `box-sizing`
+### Hériter de `box-sizing`
 
 Soit `box-sizing` être héritée de `html`:
 
@@ -89,7 +89,7 @@ Cela rend plus facile de changer `box-sizing` dans les plugins ou autres composa
 <sup>[retour à la table des matières](#table-des-matières)</sup>
 
 
-### Utilisez `unset` au lieu de Réinitialiser Toutes les Propriétés
+### Utilisez `unset` au Lieu de Réinitialiser Toutes les Propriétés
 
 Lors de la réinitialisation des propriétés d'un élément, il n'est pas nécessaire de réinitialiser chaque propriété individuelle:
 
@@ -117,7 +117,7 @@ button {
 <sup>[retour à la table des matières](#table-des-matières)</sup>
 
 
-### Utiliser `:not()` postuler / unapply frontières sur la navigation
+### Utiliser `:not()` pour Appliquer / ne pas Appliquer des Bordures à la Barre de Navigation
 
 Au lieu de mettre à la frontière...
 
@@ -190,7 +190,7 @@ textarea:focus {
 <sup>[retour à la table des matières](#table-des-matières)</sup>
 
 
-### Verticalement-Center Tout
+### Tout Centrer Verticalement
 
 Non, ce n'est pas de la magie noire, vous ne pouvez vraiment centrer des éléments verticalement:
 
@@ -230,7 +230,7 @@ Vous voulez centrer autre chose? Verticalement, horizontalement...quoi que ce so
 <sup>[retour à la table des matières](#table-des-matières)</sup>
 
 
-### Listes séparées par des virgules
+### Listes Séparées par des Virgules
 
 Faire la liste des articles ressemblent à une vraie liste, séparées par des virgules:
 
@@ -247,7 +247,7 @@ Utilisez le `:not()` pseudo-classe donc pas une virgule est ajoutée au dernier 
 <sup>[retour à la table des matières](#table-des-matières)</sup>
 
 
-### Sélectionnez éléments à l'aide négative `nth-child`
+### Sélectionner des Éléments en Utilisant un `nth-child` Négatif
 
 Utilisez négative `nth-child` en CSS pour sélectionner des éléments de 1 à n.
 
@@ -278,7 +278,7 @@ Eh bien, ce fut assez facile.
 <sup>[retour à la table des matières](#table-des-matières)</sup>
 
 
-### Utiliser SVG pour Icons
+### Utiliser SVG pour les Icônes
 
 Il n'y a aucune raison de ne pas utiliser SVG pour les icônes:
 
@@ -301,7 +301,7 @@ SVG échelles bien pour tous les types de résolution et est pris en charge dans
 <sup>[retour à la table des matières](#table-des-matières)</sup>
 
 
-### Utilisez le sélecteur "lobotomisé Owl"
+### Utilisez le Sélecteur "Chouette Lobotomisée"
 
 Il peut avoir un nom étrange, mais en utilisant le sélecteur universel (`*`) avec le sélecteur de frère adjacent (`+`) peut fournir une capacité de CSS puissante:
 
@@ -320,7 +320,7 @@ Pour en savoir plus sur la "chouette lobotomisé" sélecteur, lire [le poste de 
 <sup>[retour à la table des matières](#table-des-matières)</sup>
 
 
-### Utilisez `max-height` pour Sliders CSS pur
+### Utilisez `max-height` pour des Sliders en CSS Pur
 
 Mettre en œuvre des curseurs CSS uniquement en utilisant `max-height` avec trop-plein caché:
 
@@ -342,7 +342,7 @@ L'élément se dilate à la valeur `max-height` sur le vol stationnaire et le cu
 <sup>[retour à la table des matières](#table-des-matières)</sup>
 
 
-### Cellules Equal Largeur de table
+### Cellules de Table à Largeur Égale
 
 Les tableaux peuvent être une douleur à travailler avec donc essayer d'utiliser `table-layout: fixed` pour maintenir les cellules à largeur égale:
 
@@ -359,7 +359,7 @@ dispositions de table sans douleur.
 <sup>[retour à la table des matières](#table-des-matières)</sup>
 
 
-### Se débarrasser de la marge Hacks Avec Flexbox
+### Se Débarrasser des Hacks de Marge Avec Flexbox
 
 Lorsque vous travaillez avec des gouttières de colonne, vous pouvez vous débarrasser de `nth`, `first-` et `last-child` en utilisant la propriété `space-between` flexBox:
 
@@ -380,7 +380,7 @@ Maintenant gouttières colonnes apparaissent toujours uniformément espacés.
 <sup>[retour à la table des matières](#table-des-matières)</sup>
 
 
-### Utilisation des attributs sélecteurs avec des liens vides
+### Utiliser des Sélecteurs d'Attribut avec des Liens Vides
 
 Liens d'affichage lorsque le `<a>` élément n'a pas de valeur de texte, mais l'attribut `href` a un lien:
 
@@ -397,7 +397,7 @@ C'est assez pratique.
 <sup>[retour à la table des matières](#table-des-matières)</sup>
 
 
-### Style "par défaut" Liens
+### Style "Par Défaut" des Liens
 
 Ajouter un style pour "défaut" liens:
 
@@ -413,7 +413,7 @@ Maintenant, les liens qui sont insérés via un CMS, qui ne disposent générale
 <sup>[retour à la table des matières](#table-des-matières)</sup>
 
 
-### Conformément Vertical Rhythm
+### Rythme Vertical Consistent
 
 Utilisez un sélecteur universel (de `*`) dans un élément pour créer un rythme vertical cohérente:
 
@@ -428,7 +428,7 @@ Rythme vertical conformément offre une esthétique visuelle qui rend le contenu
 <sup>[retour à la table des matières](#table-des-matières)</sup>
 
 
-### Boîtes Ratio Intrinsic
+### Ratio de Boîtes Intrinsèque
 
 Pour créer une boîte avec un rapport intrinsèque, tout ce que vous devez faire est d'appliquer en haut ou en bas de rembourrage à un div:
 
@@ -456,7 +456,7 @@ En utilisant 20% pour le rembourrage rend la hauteur de la caisse égale à 20% 
 <sup>[retour à la table des matières](#table-des-matières)</sup>
 
 
-### Style de Broken Images
+### Styliser des Images Cassées
 
 Faire des images brouillées esthétiquement plus agréables avec un peu de CSS:
 
@@ -494,7 +494,7 @@ En savoir plus sur le style de ce modèle dans [Ire Aderinokun](https://github.c
 <sup>[retour à la table des matières](#table-des-matières)</sup>
 
 
-### Utilisez `rem` for Global Dimensionnement; Utilisez `em` pour Local Sizing
+### Utilisez `rem` pour le Dimensionnement Global; Utilisez `em` pour le Dimensionnement Local
 
 Après avoir défini la taille de la police de base à la racine (`html { font-size: 100%; }`), définir la taille de la police pour les éléments textuels à `em`:
 
@@ -525,7 +525,7 @@ Maintenant, chaque module devient compartimentée et plus faciles à coiffer, pl
 <sup>[retour à la table des matières](#table-des-matières)</sup>
 
 
-### Masquer les vidéos Autoplay qui ne sont pas Muted
+### Masquer les Vidéos Lancées Automatiquement qui ne sont pas Mises en Sourdine
 
 Ceci est un grand tour pour une feuille de style utilisateur personnalisé. Évitez de surcharger un utilisateur avec le son d'une vidéo lorsque la page lectures automatiques est chargé. Si le son est pas coupé, ne pas montrer la vidéo:
 
@@ -540,7 +540,7 @@ Encore une fois, nous prenons avantage d'utiliser le [`:not()`](#use-not-to-appl
 <sup>[retour à la table des matières](#table-des-matières)</sup>
 
 
-### Utiliser `:root` de type flexible
+### Utilisez `:root` pour le Type Flexible
 
 La taille type de police dans une disposition sensible devrait être en mesure d'ajuster à chaque fenêtre. Vous pouvez calculer la taille de la police basée sur la hauteur de la fenêtre et la largeur en utilisant `: root`:
 
@@ -563,7 +563,7 @@ body {
 <sup>[retour à la table des matières](#table-des-matières)</sup>
 
 
-### Réglez `font-size` sur le formulaire éléments pour une expérience mobile mieux
+### Réglez `font-size` sur les Éléments de Formulaire pour une Meilleure Expérience Mobile
 
 Pour éviter les navigateurs mobiles (iOS Safari, _et al_.) De zoom sur des éléments de formulaire HTML quand un `<select>` déroulante est taraudé, ajoutez `font-size` à la règle de sélection:
 
@@ -582,7 +582,7 @@ textarea {
 
 
 
-### Utiliser les événements de pointeur pour contrôler les événements de la souris
+### Utiliser les Événements de Pointeur pour Contrôler les Événements de la Souris
 
 [Événements de pointeur](https://developer.mozilla.org/en-US/docs/Web/CSS/pointer-events) vous permet de spécifier comment la souris interagit avec l'élément qu'elle touche. Pour désactiver l'événement de pointeur par défaut sur un bouton, par exemple:
 
