@@ -12,7 +12,7 @@ Une collection de conseils pour vous aider à mener vos compétences CSS au nive
 ## Table des matières
 
 * [Conseils d’expert](#conseils-dexpert)
-* [Soutien](#soutien)
+* [Prise en charge par les navigateurs](#prise-en-charge-par-les-navigateurs)
 * [Directives pour les contributions](../../CONTRIBUTING.md)
 
 
@@ -596,6 +596,6 @@ C'est aussi simple que cela.
 <sup>[retour à la table des matières](#table-des-matières)</sup>
 
 
-## Soutien
+## Prise en charge par les navigateurs
 
 Les versions actuelles de Chrome, Firefox, Safari, Opera, Edge, et IE11.
