@@ -11,7 +11,7 @@ Une collection de conseils pour vous aider à mener vos compétences CSS au nive
 
 ## Table des matières
 
-* [Conseils d’expert](#conseils-d--expert)
+* [Conseils d’expert](#conseils-dexpert)
 * [Soutien](#soutien)
 * [Directives pour les contributions](../../CONTRIBUTING.md)
 
@@ -30,9 +30,9 @@ Une collection de conseils pour vous aider à mener vos compétences CSS au nive
 1. [Utiliser SVG pour les Icônes](#utiliser-svg-pour-les-icônes)
 1. [Utilisez le Sélecteur "chouette lobotomisée"](#utilisez-le-sélecteur-chouette-lobotomisée)
 1. [Utilisez `max-height` pour des Sliders en CSS Pur](#utilisez-max-height-pour-des-sliders-en-css-pur)
-1. [Cellules de Table à Largeur Égale](#cellules-de-tableau-à-largeur-égale)
+1. [Cellules de Tableau à Largeur Égale](#cellules-de-tableau-à-largeur-égale)
 1. [Se Débarrasser des Hacks de Marge Avec Flexbox](#se-débarrasser-des-hacks-de-marge-avec-flexbox)
-1. [Utiliser des Sélecteurs d'Attribut avec des Liens Vides](#utiliser-des-sélecteurs-d-attributs-avec-des-liens-vides)
+1. [Utiliser des Sélecteurs d'Attribut avec des Liens Vides](#utiliser-des-sélecteurs-dattribut-avec-des-liens-vides)
 1. [Style "Par Défaut" des Liens](#style-par-défaut-des-liens)
 1. [Rythme Vertical Consistent](#rythme-vertical-consistent)
 1. [Ratio de Boîtes Intrinsèque](#ratio-de-boîtes-intrinsèque)
@@ -342,7 +342,7 @@ L'élément se dilate à la valeur `max-height` sur le vol stationnaire et le cu
 <sup>[retour à la table des matières](#table-des-matières)</sup>
 
 
-### Cellules de Table à Largeur Égale
+### Cellules de Tableau à Largeur Égale
 
 Les tableaux peuvent être une douleur à travailler avec donc essayer d'utiliser `table-layout: fixed` pour maintenir les cellules à largeur égale:
 
